@@ -23,7 +23,7 @@ export default {
 
           return helper.attach("button", {
             label: themePrefix("switch_text"),
-            className: "btn-primary btn-small sign-up-button",
+            className: "btn-primary btn-small",
             action: "switchLanguage",
           });
         }
